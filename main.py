@@ -25,11 +25,16 @@ time.sleep(3)
 
 path = r'C:\Users\chrys\Downloads\Vendas - Dez.xlsx'
 table = pandas.read_excel(path)
-
 print(table)
 
 total_sales = table["Valor Final"].sum()
 total_items = table['Quantidade'].sum()
-
 print(total_sales)
 print(total_items)
+
+pyautogui.hotkey('ctrl', 't')
+pyautogui.write('https://mail.google.com/mail/u/1/#inbox')
+pyautogui.press('enter')
+time.sleep(5)
+pyautogui.click(x=91, y=215)
+time.sleep(2)

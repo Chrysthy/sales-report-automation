@@ -27,3 +27,12 @@
 
 <br>
 
+## 🛠 Technologies
+
+- Python
+- Pandas 
+- Openpyxl
+- Coordinate Mapping
+- Git and GitHub
+
+<br>

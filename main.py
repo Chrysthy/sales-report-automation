@@ -17,12 +17,14 @@ pyautogui.write(link)
 pyautogui.press('enter')
 time.sleep(3)
 
-pyautogui.click(x=483, y=607, clicks=2)
-pyautogui.click(x=595, y=595)
+pyautogui.click(x=424, y=369, clicks=2)
+time.sleep(1)
+pyautogui.click(x=407, y=444) 
+pyautogui.click(x=502, y=365) 
 time.sleep(2)
-pyautogui.click(x=678, y=620)
-pyautogui.press('enter')
+pyautogui.click(x=582, y=452) 
 time.sleep(3)
+pyautogui.press("enter")
 
 path = r'C:\Users\chrys\Downloads\Vendas - Dez.xlsx'
 table = pandas.read_excel(path)
@@ -40,7 +42,7 @@ time.sleep(5)
 pyautogui.click(x=91, y=215)
 time.sleep(3)
 
-pyautogui.write('chrystine.academico@gmail.com')
+pyautogui.write('xxxxx@gmail.com')
 pyautogui.press('tab')
 pyautogui.press('tab')
 pyperclip.copy('Relatório de Vendas')
@@ -50,8 +52,8 @@ message = f"""
     Prezado(a),
     Segue o relatório de vendas do mês de dezembro.
 
-    Faturamento: R$ {total_sales}
-    Quantidade de produtos vendidos: {total_items}
+    Faturamento: R$ {total_sales:,.2f}
+    Quantidade de produtos vendidos: {total_items:,}
 
     Atenciosamente,
 

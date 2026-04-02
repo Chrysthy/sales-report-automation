@@ -1,6 +1,7 @@
 import pyautogui
 import time
 import pandas
+import pyperclip
 pyautogui.PAUSE = 1
 
 pyautogui.click
@@ -42,7 +43,8 @@ time.sleep(3)
 pyautogui.write('chrystine.academico@gmail.com')
 pyautogui.press('tab')
 pyautogui.press('tab')
-pyautogui.write('Relatório de Vendas')
+pyperclip.copy('Relatório de Vendas')
+pyautogui.hotkey('ctrl', 'v')
 pyautogui.press('tab')
 message = f"""
     Prezado(a),
@@ -56,5 +58,6 @@ message = f"""
     Chrystine
 """
 
-pyautogui.write(message)
+pyperclip.copy(message)
+pyautogui.hotkey('ctrl', 'v')
 pyautogui.hotkey('ctrl', 'enter')

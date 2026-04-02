@@ -36,3 +36,17 @@
 - Git and GitHub
 
 <br>
+
+## ✨ Features
+
+- Desktop & Web Automation – Automates mouse and keyboard to navigate Chrome and download reports.
+
+- Coordinate-Based Interaction – Interacts precisely with UI elements using X/Y screen positions.
+
+- Data Analysis (Pandas) – Automatically parses Excel files to calculate Revenue and Product Quantity.
+
+- Automated Email Reporting – Composes and sends detailed sales reports via Gmail.
+
+- Smart Clipboard Integration – Uses pyperclip to handle special characters and complex text formatting safely.
+
+<br>

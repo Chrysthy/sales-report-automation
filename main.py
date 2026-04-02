@@ -27,3 +27,9 @@ path = r'C:\Users\chrys\Downloads\Vendas - Dez.xlsx'
 table = pandas.read_excel(path)
 
 print(table)
+
+total_sales = table["Valor Final"].sum()
+total_items = table['Quantidade'].sum()
+
+print(total_sales)
+print(total_items)

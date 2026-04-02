@@ -3,7 +3,7 @@ import time
 import pandas
 pyautogui.PAUSE = 1
 
-pyautogui.click 
+pyautogui.click
 pyautogui.press('win')
 pyautogui.write('chrome')
 pyautogui.press('enter')
@@ -37,4 +37,24 @@ pyautogui.write('https://mail.google.com/mail/u/1/#inbox')
 pyautogui.press('enter')
 time.sleep(5)
 pyautogui.click(x=91, y=215)
-time.sleep(2)
+time.sleep(3)
+
+pyautogui.write('chrystine.academico@gmail.com')
+pyautogui.press('tab')
+pyautogui.press('tab')
+pyautogui.write('Relatório de Vendas')
+pyautogui.press('tab')
+message = f"""
+    Prezado(a),
+    Segue o relatório de vendas do mês de dezembro.
+
+    Faturamento: R$ {total_sales}
+    Quantidade de produtos vendidos: {total_items}
+
+    Atenciosamente,
+
+    Chrystine
+"""
+
+pyautogui.write(message)
+pyautogui.hotkey('ctrl', 'enter')

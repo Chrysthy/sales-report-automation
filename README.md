@@ -62,3 +62,6 @@
 <p> Contributions, issues, and feature requests are welcome! Please, feel free to do it! 😉 </p>
 
 <br>
+
+## 🌟 Support
+<p> If you like this project, please give it a star ⭐ and share it with others! 😄 </p

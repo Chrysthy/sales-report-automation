@@ -50,3 +50,10 @@
 - Smart Clipboard Integration – Uses pyperclip to handle special characters and complex text formatting safely.
 
 <br>
+
+
+## 📜 License
+
+* This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+
+<br>
